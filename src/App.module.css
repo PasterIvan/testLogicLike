@@ -1,0 +1,9 @@
+.container {
+  position: relative;
+  align-items: start;
+  justify-content: start;
+  display: flex;
+  gap: 24px;
+}
+
+/*# sourceMappingURL=App.module.css.map */

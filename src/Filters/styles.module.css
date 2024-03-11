@@ -1,0 +1,22 @@
+.container {
+  min-width: 264px;
+  position: sticky;
+  top: 24px;
+  border: 1px solid #CFCFE4;
+  border-radius: 18px;
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+}
+
+.button {
+  border-radius: 12px;
+  padding: 12px;
+}
+
+.active {
+  background: #5FBF77;
+  color: #FFFFFF;
+}
+
+/*# sourceMappingURL=styles.module.css.map */
