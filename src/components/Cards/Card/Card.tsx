@@ -1,4 +1,4 @@
-import React, { FC } from 'react'
+import React, { FC, memo } from 'react'
 import clsx from 'clsx'
 import styles from './styles.module.scss'
 
@@ -14,7 +14,7 @@ type CardProps = {
   element: CardType
 }
 
-export const Card: FC<CardProps> = ({ element }) => {
+export const Card: FC<CardProps> = memo(({ element }) => {
   return (
     <div className={clsx(styles.container)} style={{ background: element.bgColor }}>
       <div className={clsx(styles.imageContainer)}>
@@ -25,4 +25,4 @@ export const Card: FC<CardProps> = ({ element }) => {
       </div>
     </div>
   )
-}
+})

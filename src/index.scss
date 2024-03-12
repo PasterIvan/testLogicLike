@@ -1,15 +1,30 @@
+@import './styles/variables.scss';
+
 * {
   box-sizing: border-box;
-  text-align: start;
-  font-family: Nunito, sans-serif;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 18px;
 }
+
 body {
   padding: 24px;
   margin: 0;
 }
+
+span, button {
+  font-family: $textFont;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 18px;
+  text-align: start;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+span:hover {
+  cursor: default;
+}
+
 button {
   width: 100%;
   background: none;

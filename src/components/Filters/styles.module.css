@@ -1,12 +1,12 @@
 .container {
-  min-width: 264px;
-  position: sticky;
-  top: 24px;
-  border: 1px solid #CFCFE4;
-  border-radius: 18px;
-  padding: 12px;
   display: flex;
   flex-direction: column;
+  position: sticky;
+  top: 24px;
+  min-width: 264px;
+  padding: 12px;
+  border: 1px solid #CFCFE4;
+  border-radius: 18px;
 }
 
 .button {
