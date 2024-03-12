@@ -1,4 +1,4 @@
-import React, { useCallback, useEffect } from 'react'
+import { useCallback, useEffect } from 'react'
 import './App.module.scss'
 import axios from 'axios'
 import styles from './App.module.scss'

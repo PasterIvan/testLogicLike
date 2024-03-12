@@ -1,4 +1,4 @@
-import React, { FC, memo } from 'react'
+import { FC, memo } from 'react'
 import clsx from 'clsx'
 import styles from './styles.module.scss'
 import { useStore } from '../../store/useStor'

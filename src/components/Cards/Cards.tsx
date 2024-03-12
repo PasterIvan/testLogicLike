@@ -1,4 +1,4 @@
-import React, { useMemo } from 'react'
+import { useMemo } from 'react'
 import { Card } from './Card/Card'
 import styles from './styles.module.scss'
 import { useStore } from '../../store/useStor'
