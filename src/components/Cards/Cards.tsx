@@ -1,7 +1,6 @@
 import React, { useMemo } from 'react'
 import { Card } from './Card/Card'
 import styles from './styles.module.scss'
-import clsx from 'clsx'
 import { useStore } from '../../store/useStor'
 
 export const Cards = () => {
@@ -15,7 +14,7 @@ export const Cards = () => {
   )
 
   return (
-    <div className={clsx(styles.container)}>
+    <div className={styles.container}>
       {filteredData &&
         !!filteredData.length &&
         filteredData.map(el => <Card key={el.id} element={el} />)}
