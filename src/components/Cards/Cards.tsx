@@ -13,11 +13,11 @@ export const Cards = () => {
     [selectedFilter, data],
   )
 
-  return (
+  return filteredData.length > 0 ? (
     <div className={styles.container}>
-      {filteredData &&
-        !!filteredData.length &&
-        filteredData.map(el => <Card key={el.id} element={el} />)}
+      {filteredData.map(el => (
+        <Card key={el.id} element={el} />
+      ))}
     </div>
-  )
+  ) : null
 }
